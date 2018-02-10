@@ -1,0 +1,121 @@
+{
+    "config_layers": {
+        "maxpool1": {
+            "image_maxdim": null,
+            "feature": 0,
+            "visible": true,
+            "vshape": null,
+            "minmax": null,
+            "max_draw_units": 20,
+            "colormap": null,
+            "image_pixels_per_unit": null
+        },
+        "input": {
+            "image_maxdim": null,
+            "feature": 0,
+            "visible": true,
+            "vshape": null,
+            "minmax": null,
+            "max_draw_units": 20,
+            "colormap": "gray",
+            "image_pixels_per_unit": null
+        },
+        "conv2D_1": {
+            "image_maxdim": null,
+            "feature": 0,
+            "visible": true,
+            "vshape": null,
+            "minmax": [
+                -1.0,
+                1.0
+            ],
+            "max_draw_units": 20,
+            "colormap": null,
+            "image_pixels_per_unit": null
+        },
+        "conv2D_2": {
+            "image_maxdim": null,
+            "feature": 0,
+            "visible": true,
+            "vshape": null,
+            "minmax": [
+                -1.0,
+                1.0
+            ],
+            "max_draw_units": 20,
+            "colormap": null,
+            "image_pixels_per_unit": null
+        },
+        "output": {
+            "image_maxdim": null,
+            "feature": 0,
+            "visible": true,
+            "vshape": null,
+            "minmax": [
+                -1.0,
+                1.0
+            ],
+            "max_draw_units": 20,
+            "colormap": null,
+            "image_pixels_per_unit": null
+        },
+        "hidden": {
+            "image_maxdim": null,
+            "feature": 0,
+            "visible": true,
+            "vshape": null,
+            "minmax": [
+                -1.0,
+                1.0
+            ],
+            "max_draw_units": 20,
+            "colormap": null,
+            "image_pixels_per_unit": null
+        },
+        "flat": {
+            "image_maxdim": null,
+            "feature": 0,
+            "visible": true,
+            "vshape": null,
+            "minmax": null,
+            "max_draw_units": 20,
+            "colormap": null,
+            "image_pixels_per_unit": null
+        },
+        "maxpool2": {
+            "image_maxdim": null,
+            "feature": 0,
+            "visible": true,
+            "vshape": null,
+            "minmax": null,
+            "max_draw_units": 20,
+            "colormap": null,
+            "image_pixels_per_unit": null
+        }
+    },
+    "activation": "linear",
+    "font_size": 12,
+    "border_bottom": 25,
+    "dashboard.features.columns": 8,
+    "show_errors": false,
+    "show_targets": true,
+    "dashboard.dataset": "Test",
+    "dashboard.features.bank": "conv2D_1",
+    "svg_scale": 1.0,
+    "image_maxdim": 200,
+    "font_family": "monospace",
+    "border_color": "black",
+    "border_top": 25,
+    "border_width": "2",
+    "precision": 2,
+    "arrow_color": "black",
+    "vspace": 30,
+    "arrow_width": "2",
+    "svg_preferred_size": 400,
+    "svg_max_width": 800,
+    "dashboard.features.scale": 4.0,
+    "pixels_per_unit": 1,
+    "hspace": 150,
+    "svg_rotate": true,
+    "image_pixels_per_unit": 50
+}

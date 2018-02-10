@@ -1,0 +1,88 @@
+{
+    "dashboard.features.bank": "",
+    "hspace": 150,
+    "image_maxdim": 200,
+    "config_layers": {
+        "input": {
+            "max_draw_units": 20,
+            "visible": true,
+            "minmax": null,
+            "feature": 0,
+            "vshape": null,
+            "colormap": null,
+            "image_maxdim": null,
+            "image_pixels_per_unit": null
+        },
+        "flat_input": {
+            "max_draw_units": 20,
+            "visible": true,
+            "minmax": null,
+            "feature": 0,
+            "vshape": null,
+            "colormap": null,
+            "image_maxdim": null,
+            "image_pixels_per_unit": null
+        },
+        "output": {
+            "max_draw_units": 20,
+            "visible": true,
+            "minmax": [
+                -1.0,
+                1.0
+            ],
+            "feature": 0,
+            "vshape": null,
+            "colormap": null,
+            "image_maxdim": null,
+            "image_pixels_per_unit": null
+        },
+        "hidden2": {
+            "max_draw_units": 20,
+            "visible": true,
+            "minmax": [
+                -1.0,
+                1.0
+            ],
+            "feature": 0,
+            "vshape": null,
+            "colormap": null,
+            "image_maxdim": null,
+            "image_pixels_per_unit": null
+        },
+        "hidden1": {
+            "max_draw_units": 20,
+            "visible": true,
+            "minmax": [
+                -1.0,
+                1.0
+            ],
+            "feature": 0,
+            "vshape": null,
+            "colormap": null,
+            "image_maxdim": null,
+            "image_pixels_per_unit": null
+        }
+    },
+    "activation": "linear",
+    "font_family": "monospace",
+    "show_targets": false,
+    "image_pixels_per_unit": 50,
+    "show_errors": false,
+    "border_color": "black",
+    "dashboard.dataset": "Train",
+    "arrow_color": "black",
+    "border_bottom": 25,
+    "border_width": "2",
+    "dashboard.features.scale": 1.0,
+    "border_top": 25,
+    "svg_rotate": true,
+    "vspace": 30,
+    "pixels_per_unit": 1,
+    "svg_preferred_size": 400,
+    "svg_scale": 0.6,
+    "arrow_width": "2",
+    "dashboard.features.columns": 3,
+    "svg_max_width": 800,
+    "precision": 2,
+    "font_size": 12
+}
