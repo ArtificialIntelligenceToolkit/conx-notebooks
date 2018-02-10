@@ -1,0 +1,75 @@
+{
+    "svg_scale": 0.3,
+    "image_maxdim": 200,
+    "dashboard.features.scale": 1.0,
+    "border_bottom": 25,
+    "config_layers": {
+        "input": {
+            "visible": true,
+            "vshape": null,
+            "minmax": null,
+            "colormap": null,
+            "image_maxdim": null,
+            "feature": 0,
+            "max_draw_units": 20,
+            "image_pixels_per_unit": null
+        },
+        "flatten": {
+            "visible": true,
+            "vshape": null,
+            "minmax": null,
+            "colormap": null,
+            "image_maxdim": null,
+            "feature": 0,
+            "max_draw_units": 20,
+            "image_pixels_per_unit": null
+        },
+        "hidden": {
+            "visible": true,
+            "vshape": null,
+            "minmax": [
+                -1.0,
+                1.0
+            ],
+            "colormap": null,
+            "image_maxdim": null,
+            "feature": 0,
+            "max_draw_units": 20,
+            "image_pixels_per_unit": null
+        },
+        "output": {
+            "visible": true,
+            "vshape": null,
+            "minmax": [
+                -1.0,
+                1.0
+            ],
+            "colormap": null,
+            "image_maxdim": null,
+            "feature": 0,
+            "max_draw_units": 20,
+            "image_pixels_per_unit": null
+        }
+    },
+    "font_family": "monospace",
+    "precision": 2,
+    "image_pixels_per_unit": 50,
+    "show_errors": false,
+    "dashboard.features.columns": 3,
+    "arrow_color": "black",
+    "pixels_per_unit": 1,
+    "hspace": 150,
+    "svg_preferred_size": 400,
+    "border_top": 25,
+    "border_width": "2",
+    "arrow_width": "2",
+    "vspace": 30,
+    "show_targets": true,
+    "activation": "linear",
+    "font_size": 12,
+    "dashboard.features.bank": "",
+    "dashboard.dataset": "Test",
+    "svg_rotate": false,
+    "border_color": "black",
+    "svg_max_width": 800
+}
