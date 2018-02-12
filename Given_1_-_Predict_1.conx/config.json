@@ -1,0 +1,75 @@
+{
+    "font_size": 12,
+    "font_family": "monospace",
+    "border_top": 25,
+    "border_bottom": 25,
+    "hspace": 150,
+    "vspace": 30,
+    "image_maxdim": 200,
+    "image_pixels_per_unit": 50,
+    "activation": "linear",
+    "arrow_color": "black",
+    "arrow_width": "2",
+    "border_width": "2",
+    "border_color": "black",
+    "show_targets": false,
+    "show_errors": false,
+    "pixels_per_unit": 1,
+    "precision": 2,
+    "svg_scale": null,
+    "svg_rotate": false,
+    "svg_preferred_size": 400,
+    "svg_max_width": 800,
+    "dashboard.dataset": "Train",
+    "dashboard.features.bank": "",
+    "dashboard.features.columns": 3,
+    "dashboard.features.scale": 1.0,
+    "config_layers": {
+        "input": {
+            "visible": true,
+            "minmax": [
+                0,
+                26
+            ],
+            "vshape": null,
+            "image_maxdim": null,
+            "image_pixels_per_unit": null,
+            "colormap": null,
+            "feature": 0,
+            "max_draw_units": 20
+        },
+        "embed": {
+            "visible": true,
+            "minmax": null,
+            "vshape": [
+                1,
+                64
+            ],
+            "image_maxdim": null,
+            "image_pixels_per_unit": null,
+            "colormap": null,
+            "feature": 0,
+            "max_draw_units": 20
+        },
+        "flatten": {
+            "visible": true,
+            "minmax": null,
+            "vshape": null,
+            "image_maxdim": null,
+            "image_pixels_per_unit": null,
+            "colormap": null,
+            "feature": 0,
+            "max_draw_units": 20
+        },
+        "output": {
+            "visible": true,
+            "minmax": null,
+            "vshape": null,
+            "image_maxdim": null,
+            "image_pixels_per_unit": null,
+            "colormap": null,
+            "feature": 0,
+            "max_draw_units": 20
+        }
+    }
+}
