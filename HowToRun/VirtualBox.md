@@ -61,7 +61,9 @@ Conx, version 3.6.0
 7. **Shutdown**. If this works, you're done! You can shut down the notebook by
 selecting `File` -> `Close and Halt`. You can shut down the Ubuntu Virtual Machine by clicking
 on the power button in the upper right corner of the Desktop and choosing `Shutdown`. You 
-can then close VirtualBox. If this doesn't work, then you want to try the Docker option,
+can then close VirtualBox.
+
+If you can't get VirtualBox to work, then you may want to try the Docker option,
 or ask for help on the `conx-users` mailing list:
 
 https://groups.google.com/forum/#!forum/conx-users
