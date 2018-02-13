@@ -11,7 +11,7 @@ There are pros and cons to each option. See the Troublingshooting section at the
 
 ## Free, Online, Ready-to-run
 
-* [MyBinder](https://mybinder.org/v2/gh/Calysto/conx/master?filepath=binder%2Findex.ipynb) - A complete in-the-cloud option. Availability may be limited due to demand.
+* [MyBinder](https://mybinder.org/v2/gh/Calysto/conx/master?filepath=binder%2Findex.ipynb) - A complete in-the-cloud option. Availability may be limited due to demand. Just click the link, and you'll find yourself running a notebook ready to build neural networks. Weird. I know, right?
 
 ## Pre-Built Virtual Machines
 
