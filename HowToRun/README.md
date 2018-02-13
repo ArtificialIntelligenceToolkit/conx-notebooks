@@ -1,6 +1,6 @@
 # How To Run Conx
 
-This page describes three categories of running Conx. Conx requires two main components: the Jupyter notebook system, and the Python Conx libraries. The first two options have Jupyter already installed and ready to run. The first option has everything:
+This page describes FOUR categories of running Conx. Conx requires two main components: the Jupyter notebook system, and the Python Conx libraries. The first two options have Jupyter already installed and ready to run. The first option has everything:
 
 * Free, Online, Ready-to-run - click and go
 * Pre-Built Virtual Machine - download image and run
@@ -11,7 +11,7 @@ There are pros and cons to each option. See the Troublingshooting section at the
 
 ## Free, Online, Ready-to-run
 
-* [MyBinder](https://mybinder.org/v2/gh/Calysto/conx/master?filepath=binder%2Findex.ipynb) - A complete in-the-cloud option. Availability may be limited due to demand. Just click the link, and you'll find yourself running a notebook ready to build neural networks. Weird. I know, right?
+* [MyBinder](https://mybinder.org/v2/gh/Calysto/conx/master?filepath=binder%2Findex.ipynb) - A complete in-the-cloud option. Availability may be limited due to demand. Just click the link, and you'll find yourself running a notebook ready to build neural networks. Weird, I know, right?
 
 ## Pre-Built Virtual Machines
 
@@ -33,7 +33,7 @@ You'll need to do the `pip install` commands from the following section. However
 
 ## Manage Your Own Install
 
-The rest of this document regards managing your own installation of Jupyter and Conx Python libraries.
+The rest of this document explains how to manage your own installation of Jupyter and Conx Python libraries.
 
 Ok, this is the hardest option, but perhaps you want to get Conx running on your own computer. It is highly recommended that you use the [Anaconda distribution](https://www.anaconda.com/distribution/).
 
@@ -74,7 +74,7 @@ https://docs.microsoft.com/en-us/cognitive-toolkit/Setup-CNTK-on-your-machine
 
 ### Operating-Specific Details
 
-On MacOS, you may also need to render the SVG visualizations:
+On MacOS, you may want to render the SVG visualizations. This feature requires the cairo library:
 
 ```bash
 brew install cairo
@@ -116,7 +116,7 @@ conda install -c conda-forge ipywidgets
 
 ### Setting the Keras Backend
 
-To use a Keras backend other than TensorFlow, edit (or create) `~/.keras/kerson.json`, like:
+To use a Keras backend other than TensorFlow, edit (or create) `~/.keras/keras.json`, like:
 
 ```json
 {
@@ -129,7 +129,7 @@ To use a Keras backend other than TensorFlow, edit (or create) `~/.keras/kerson.
 
 ### Troubleshooting
 
-1. If you have a problem after installing matplotlib with pip, and you already have matplotlib installed (say, with apt) you may want to remove the apt-installed version of matplotlib.
+1. If you have a problem after installing matplotlib with pip, and you already have matplotlib installed (say, with apt) try removing the apt-installed version of matplotlib.
 2. Theano has many known problems. Don't use Theano, use TensorFlow.
 
 If you have additional problems, please see the con-users mailing list:
