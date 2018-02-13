@@ -1,13 +1,13 @@
 # How To Run Conx
 
-This page describes FOUR categories of running Conx. Conx requires two main components: the Jupyter notebook system, and the Python Conx libraries. The first two options have Jupyter already installed and ready to run. The first option has everything:
+This page describes FOUR options for running Conx. Conx requires two main components: the Jupyter notebook system, and the Python Conx libraries. The first two options have Jupyter already installed and ready to run. The first option has everything:
 
 * Free, Online, Ready-to-run - click and go
 * Pre-Built Virtual Machine - download image and run
 * In-the-cloud Jupyter - login and install Conx Python packages
 * Manage Your Own Install - uses standard Python tools on your computer
 
-There are pros and cons to each option. See the Troublingshooting section at the bottom for additional help.
+There are pros and cons to each option. See the Troubleshooting section at the bottom for additional help.
 
 ## Free, Online, Ready-to-run
 
@@ -52,9 +52,9 @@ Next, we use `pip` to install the Python packages. We use `pip` rather than `con
 pip install conx -U --user
 ```
 
-You will need to decide whether to use Theano, TensorFlow, or CNTK. Pick one. See [docs.microsoft.com](https://docs.microsoft.com/en-us/cognitive-toolkit/Setup-CNTK-on-your-machine) for installing CNTK on Windows or Linux. All platforms can also install either of the others using pip:
+You will need to decide whether to use TensorFlow, Theano, or CNTK. Pick one. See [docs.microsoft.com](https://docs.microsoft.com/en-us/cognitive-toolkit/Setup-CNTK-on-your-machine) for installing CNTK on Windows or Linux. All platforms can also install either of the others using pip:
 
-It is recommended that you use TensorFlow. Do one of the following:
+It is strongly recommended that you use TensorFlow. Do one of the following:
 
 ```bash
 pip install tensorflow
