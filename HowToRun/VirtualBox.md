@@ -21,7 +21,7 @@ for your system, or just click directly on one of the links below:
 **Windows**:
 - https://download.virtualbox.org/virtualbox/5.2.6/VirtualBox-5.2.6-120293-Win.exe
 
-Note: VirtualBox for Windows requires at least Windows 10 Professional, amonng other versions of Windows. 
+Note: VirtualBox for Windows requires at least Windows 10 Professional, among other versions of Windows. 
 
 2. **Download the Appliance**. After installing VirtualBox, download the file `virtualbox-conx-3.6.0.ova`
 from the link below. This file is about 3.9G, so it may take some time to
@@ -36,7 +36,7 @@ minutes to complete.
 
 Note: You may have to increase your video memory for the Conx image to at least 32 MB to see the screen properly.
 
-4. **Start the Virtual Machne**. In the VirtualBox side panel at the left, you should now see the virtual
+4. **Start the Virtual Machine**. In the VirtualBox side panel at the left, you should now see the virtual
 machine "Conx 3.6.0 (Powered Off)". Double click on the machine to start the
 boot process. After a minute or two, you should see the Ubuntu desktop.
 
@@ -59,10 +59,10 @@ Conx, version 3.6.0
 ```
 
 7. **Shutdown**. If this works, you're done! You can shut down the notebook by
-select `File` -> `Close and Halt`. You can shutdown the Ubuntu Virtual Machine by clicking
+selecting `File` -> `Close and Halt`. You can shut down the Ubuntu Virtual Machine by clicking
 the triangle in the upper righthand corner and selecting the power button -> `Shutdown`. You 
 can then close VirtualBox. If this doesn't work, then you want to try the Docker option,
-or ask from help on the `conx-users` mailing list:
+or ask for help on the `conx-users` mailing list:
 
 https://groups.google.com/forum/#!forum/conx-users
 
