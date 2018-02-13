@@ -21,7 +21,9 @@ for your system, or just click directly on one of the links below:
 **Windows**:
 - https://download.virtualbox.org/virtualbox/5.2.6/VirtualBox-5.2.6-120293-Win.exe
 
-Note: VirtualBox for Windows requires at least Windows 10 Professional, amonng other versions of Windows.
+Note: VirtualBox for Windows requires at least Windows 10 Professional, amonng other versions of Windows. 
+
+Note: You may have to increase your video memory to at least 32 MB to see the screen properly.
 
 2. **Download the Appliance**. After installing VirtualBox, download the file `virtualbox-conx-3.6.0.ova`
 from the link below. This file is about 3.9G, so it may take some time to
