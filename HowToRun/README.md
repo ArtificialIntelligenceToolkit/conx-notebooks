@@ -6,7 +6,7 @@ This page describes three categories of running Conx. Conx requires two main com
 * In-the-cloud Jupyter - login and install Conx Python packages
 * Manage Your Own Install - uses standard Python tools on your computer
 
-There are pros and cons to each option.
+There are pros and cons to each option. See the Troublingshooting section at the bottom for additional help.
 
 ## Pre-Build Virtual Machines
 
@@ -28,6 +28,8 @@ These options take care of the Jupyter service, but you still need to install th
 You'll need to do the `pip install` commands from the following section.
 
 ## Manage Your Own Install
+
+The rest of this document regards managing your own installation of Jupyter and Conx Python libraries.
 
 Ok, this is the hardest option, but perhaps you want to get Conx running on your own computer. It is highly recommended that you use the [Anaconda distribution](https://www.anaconda.com/distribution/).
 
@@ -65,6 +67,8 @@ pip install theano
 Install the Cognitive Toolkit:
 
 https://docs.microsoft.com/en-us/cognitive-toolkit/Setup-CNTK-on-your-machine
+
+### Operating-Specific Details
 
 On MacOS, you may also need to render the SVG visualizations:
 
