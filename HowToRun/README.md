@@ -1,12 +1,12 @@
 # How To Run Conx
 
-This page describes three categories of running Conx:
+This page describes three categories of running Conx. Conx requires two main components: the Jupyter notebook system, and the Python Conx libraries. The first two options have Jupyter already installed and ready to run. The first option has everything:
 
 * Pre-Built Virtual Machine - download image and run
-* In-the-cloud Jupyter - login and install Python packages
+* In-the-cloud Jupyter - login and install Conx Python packages
 * Manage Your Own Install - uses standard Python tools on your computer
 
-There are pros and cons to each option:
+There are pros and cons to each option.
 
 ## Pre-Build Virtual Machines
 
