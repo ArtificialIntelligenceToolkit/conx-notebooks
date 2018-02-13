@@ -2,17 +2,21 @@
 
 This page describes three categories of running Conx. Conx requires two main components: the Jupyter notebook system, and the Python Conx libraries. The first two options have Jupyter already installed and ready to run. The first option has everything:
 
+* Free, Online, Ready-to-run - click and go
 * Pre-Built Virtual Machine - download image and run
 * In-the-cloud Jupyter - login and install Conx Python packages
 * Manage Your Own Install - uses standard Python tools on your computer
 
 There are pros and cons to each option. See the Troublingshooting section at the bottom for additional help.
 
-## Pre-Build Virtual Machines
+## Free, Online, Ready-to-run
+
+* [MyBinder](https://mybinder.org/v2/gh/Calysto/conx/master?filepath=binder%2Findex.ipynb) - A complete in-the-cloud option. Availability may be limited due to demand.
+
+## Pre-Built Virtual Machines
 
 Rather than installing Conx piecemeal, consider one of the following pre-built virtual machine options:
 
-* [MyBinder](https://mybinder.org/v2/gh/Calysto/conx/master?filepath=binder%2Findex.ipynb) - A complete in-the-cloud option. Availability may be limited due to demand.
 * [Conx Docker container](Docker.md) - Perhaps the easiest option. But large download.
 * [VirtualBox image](VirtualBox.md) - Perhaps the most flexible option. Complete Ubuntu system, but large download.
 
