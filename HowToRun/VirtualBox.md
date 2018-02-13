@@ -63,12 +63,13 @@ selecting `File` -> `Close and Halt`. You can shut down the Ubuntu Virtual Machi
 on the power button in the upper right corner of the Desktop and choosing `Shutdown`. You 
 can then close VirtualBox.
 
+8. **Cleanup**. (optional) You can now safely delete the file `virtualbox-conx-3.6.0.ova` from
+your system.
+
+9. **Regular Use**. To use VirtualBox regularly, go to step #4.
+
 If you can't get VirtualBox to work, then you may want to try the Docker option,
 or ask for help on the `conx-users` mailing list:
 
 https://groups.google.com/forum/#!forum/conx-users
 
-8. **Cleanup**. (optional) You can now safely delete the file `virtualbox-conx-3.6.0.ova` from
-your system.
-
-9. **Regular Use**. To use VirtualBox regularly, go to step #4.
