@@ -29,7 +29,7 @@ These options take care of the Jupyter service, but you still need to install th
 * [Microsoft's Azure](https://notebooks.azure.com/), [More Information](https://notebooks.azure.com/help)
 * [IBM's Cognitive Class](https://datascientistworkbench.com/), [More information](http://support.datascientistworkbench.com/knowledgebase)
 
-You'll need to do the `pip install` commands from the following section. However, services like Google's Colab allow the sharing of notebooks with others, and can utilize Google Drive.
+You'll need to do the `pip install` commands from the following section. However, services like Colab and Cocalc allow the sharing of notebooks with others. Some allow persistent storage of your notebooks.
 
 ## Manage Your Own Install
 
