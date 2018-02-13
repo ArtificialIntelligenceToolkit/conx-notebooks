@@ -23,8 +23,6 @@ for your system, or just click directly on one of the links below:
 
 Note: VirtualBox for Windows requires at least Windows 10 Professional, amonng other versions of Windows. 
 
-Note: You may have to increase your video memory to at least 32 MB to see the screen properly.
-
 2. **Download the Appliance**. After installing VirtualBox, download the file `virtualbox-conx-3.6.0.ova`
 from the link below. This file is about 3.9G, so it may take some time to
 download. You can save it anywhere you like on your system.
@@ -35,6 +33,8 @@ http://science.slc.edu/jmarshall/virtualbox-conx-3.6.0.ova
 `virtualbox-conx-3.6.0.ova` file that you downloaded. Click Continue, then Import
 (leave the default appliance settings as they are). This step may take a few
 minutes to complete.
+
+Note: You may have to increase your video memory for the Conx image to at least 32 MB to see the screen properly.
 
 4. **Start the Virtual Machne**. In the VirtualBox side panel at the left, you should now see the virtual
 machine "Conx 3.6.0 (Powered Off)". Double click on the machine to start the
