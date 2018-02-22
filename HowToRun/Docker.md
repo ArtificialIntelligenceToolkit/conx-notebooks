@@ -4,8 +4,8 @@ These are the steps required to download and run Conx in a Docker container.
 
 This option will allow you to run all of Conx via a webbrowser on your operating system. It installs a full Ubuntu system, but only runs a webserver from it.
 
-* Docker Program size: 
-* Docker Container size: 
+* Docker Program size: 300 MB
+* Docker Container size: 7 GB
 
 1. **Download Docker**. You will want to download the Docker Community Edition (CE):
 
