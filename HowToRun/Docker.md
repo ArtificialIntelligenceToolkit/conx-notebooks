@@ -4,8 +4,8 @@ These are the steps required to download and run Conx in a Docker container.
 
 This option will allow you to run all of Conx via a webbrowser on your operating system. It installs a full Ubuntu system, but only runs a webserver from it.
 
-* Docker Program size: 300 MB
-* Docker Container size: 7 GB
+* Docker Program size: about 300 MB
+* Docker Container size: about 8 GB
 
 1. **Download Docker**. You will want to download the Docker Community Edition (CE):
 
@@ -27,7 +27,7 @@ sudo docker run --rm -v "$PWD":/home/jovyan/work -p 8888:8888 calysto/conx
 
 4.**Access the Webbrowser**.  Open the URL shown at the bottom of the message from the above command.
 
-5. **Test Conx**. In the upper righthand corner of the browser, choose New -> Python 3 to start a new Python 3 notebook running. Then type:
+5. **Test Conx**. In the upper righthand corner of the browser on the Jupyter notebook home page, choose New -> Python 3 to start a new Python 3 notebook running. Then, in a Jupyter code cell, type:
 
 ```
 import conx as cx
@@ -40,13 +40,15 @@ Using TensorFlow backend.
 Conx, version 3.6.0
 ```
 
+The version number may be higher than 3.6.0. You are ready to go!
+
 6. **Shutdown**. If this works, you're done! You can shut down the notebook by
 select `File` -> `Close and Halt`. You can shutdown the Docker container and webserver
 by typing Control+C in the console where you entered `sudo docker run...` in step #2.
-If this doesn't work, then you want to try the Docker option,
+If this doesn't work, then you want to try the VirtualBox option,
 or ask from help on the `conx-users` mailing list:
 
 https://groups.google.com/forum/#!forum/conx-users
 
 
-7. **Regular Use**. To use the Docker container regularly, go to step #3.
+7. **Regular Use**. To use the Docker container regularly, go to step #3, and proceed through step #6.
