@@ -1,121 +1,121 @@
 {
-    "dashboard.dataset": "Test",
-    "activation": "linear",
-    "svg_max_width": 800,
-    "svg_scale": 1.0,
-    "font_size": 12,
-    "border_width": "2",
-    "border_bottom": 25,
-    "vspace": 30,
-    "dashboard.features.bank": "conv2D_1",
-    "image_pixels_per_unit": 50,
-    "arrow_width": "2",
-    "config_layers": {
-        "output": {
-            "colormap": null,
-            "image_pixels_per_unit": null,
-            "max_draw_units": 20,
-            "minmax": [
-                -1.0,
-                1.0
-            ],
-            "image_maxdim": null,
-            "visible": true,
-            "vshape": null,
-            "feature": 0
-        },
-        "conv2D_2": {
-            "colormap": null,
-            "image_pixels_per_unit": null,
-            "max_draw_units": 20,
-            "minmax": [
-                -1.0,
-                1.0
-            ],
-            "image_maxdim": null,
-            "visible": true,
-            "vshape": null,
-            "feature": 0
-        },
-        "hidden": {
-            "colormap": null,
-            "image_pixels_per_unit": null,
-            "max_draw_units": 20,
-            "minmax": [
-                -1.0,
-                1.0
-            ],
-            "image_maxdim": null,
-            "visible": true,
-            "vshape": null,
-            "feature": 0
-        },
-        "maxpool1": {
-            "colormap": null,
-            "image_pixels_per_unit": null,
-            "max_draw_units": 20,
-            "minmax": null,
-            "image_maxdim": null,
-            "visible": true,
-            "vshape": null,
-            "feature": 0
-        },
-        "flat": {
-            "colormap": null,
-            "image_pixels_per_unit": null,
-            "max_draw_units": 20,
-            "minmax": null,
-            "image_maxdim": null,
-            "visible": true,
-            "vshape": null,
-            "feature": 0
-        },
-        "maxpool2": {
-            "colormap": null,
-            "image_pixels_per_unit": null,
-            "max_draw_units": 20,
-            "minmax": null,
-            "image_maxdim": null,
-            "visible": true,
-            "vshape": null,
-            "feature": 0
-        },
-        "input": {
-            "colormap": "gray",
-            "image_pixels_per_unit": null,
-            "max_draw_units": 20,
-            "minmax": null,
-            "image_maxdim": null,
-            "visible": true,
-            "vshape": null,
-            "feature": 0
-        },
-        "conv2D_1": {
-            "colormap": null,
-            "image_pixels_per_unit": null,
-            "max_draw_units": 20,
-            "minmax": [
-                -1.0,
-                1.0
-            ],
-            "image_maxdim": null,
-            "visible": true,
-            "vshape": null,
-            "feature": 0
-        }
-    },
+    "pixels_per_unit": 1,
+    "show_errors": false,
+    "border_top": 25,
+    "hspace": 150,
+    "image_maxdim": 200,
+    "svg_scale": null,
     "svg_preferred_size": 400,
     "dashboard.features.columns": 8,
-    "border_top": 25,
-    "pixels_per_unit": 1,
-    "svg_rotate": true,
-    "show_errors": false,
-    "dashboard.features.scale": 4.0,
-    "hspace": 150,
-    "font_family": "monospace",
     "show_targets": true,
-    "precision": 2,
+    "vspace": 30,
+    "svg_max_width": 800,
+    "border_width": "2",
+    "font_family": "monospace",
+    "arrow_color": "black",
+    "config_layers": {
+        "maxpool1": {
+            "feature": 0,
+            "minmax": null,
+            "image_maxdim": null,
+            "visible": true,
+            "vshape": null,
+            "colormap": null,
+            "max_draw_units": 20,
+            "image_pixels_per_unit": null
+        },
+        "flat": {
+            "feature": 0,
+            "minmax": null,
+            "image_maxdim": null,
+            "visible": true,
+            "vshape": null,
+            "colormap": null,
+            "max_draw_units": 20,
+            "image_pixels_per_unit": null
+        },
+        "conv2D_1": {
+            "feature": 0,
+            "minmax": [
+                0.0,
+                2.0
+            ],
+            "image_maxdim": null,
+            "visible": true,
+            "vshape": null,
+            "colormap": "Blues",
+            "max_draw_units": 20,
+            "image_pixels_per_unit": null
+        },
+        "input": {
+            "feature": 0,
+            "minmax": null,
+            "image_maxdim": null,
+            "visible": true,
+            "vshape": null,
+            "colormap": "gray",
+            "max_draw_units": 20,
+            "image_pixels_per_unit": null
+        },
+        "hidden": {
+            "feature": 0,
+            "minmax": [
+                0.0,
+                2.0
+            ],
+            "image_maxdim": null,
+            "visible": true,
+            "vshape": null,
+            "colormap": "Blues",
+            "max_draw_units": 20,
+            "image_pixels_per_unit": null
+        },
+        "output": {
+            "feature": 0,
+            "minmax": [
+                0.0,
+                1.0
+            ],
+            "image_maxdim": null,
+            "visible": true,
+            "vshape": null,
+            "colormap": "Blues",
+            "max_draw_units": 20,
+            "image_pixels_per_unit": null
+        },
+        "conv2D_2": {
+            "feature": 0,
+            "minmax": [
+                0.0,
+                2.0
+            ],
+            "image_maxdim": null,
+            "visible": true,
+            "vshape": null,
+            "colormap": "Blues",
+            "max_draw_units": 20,
+            "image_pixels_per_unit": null
+        },
+        "maxpool2": {
+            "feature": 0,
+            "minmax": null,
+            "image_maxdim": null,
+            "visible": true,
+            "vshape": null,
+            "colormap": null,
+            "max_draw_units": 20,
+            "image_pixels_per_unit": null
+        }
+    },
+    "svg_rotate": true,
     "border_color": "black",
-    "image_maxdim": 200,
-    "arrow_color": "black"
+    "arrow_width": "2",
+    "border_bottom": 25,
+    "activation": "linear",
+    "dashboard.features.bank": "conv2D_1",
+    "precision": 2,
+    "dashboard.dataset": "Train",
+    "font_size": 12,
+    "dashboard.features.scale": 4.0,
+    "image_pixels_per_unit": 50
 }
