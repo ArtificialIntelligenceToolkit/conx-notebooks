@@ -62,12 +62,6 @@ pip install tensorflow
 
 **or**
 
-```bash
-pip install theano
-```
-
-**or**
-
 Install the Cognitive Toolkit:
 
 https://docs.microsoft.com/en-us/cognitive-toolkit/Setup-CNTK-on-your-machine
@@ -102,16 +96,16 @@ sudo yum install ffmpeg
 
 ### Use with Jupyter Notebooks
 
-To use the Network.dashboard() and camera functions, you will need to enable `ipywidgets`:
-
-``` bash
-jupyter nbextension enable --py widgetsnbextension
-```
-
-If you install via conda, then it will already be enabled:
+To use the Network.dashboard() and camera functions, you will need to enable `ipywidgets`. If you install via conda, then it will already be enabled:
 
 ``` bash
 conda install -c conda-forge ipywidgets
+```
+
+If you use pip, you will need to enable `ipywidgets`:
+
+``` bash
+jupyter nbextension enable --py widgetsnbextension
 ```
 
 ### Setting the Keras Backend
@@ -120,7 +114,7 @@ To use a Keras backend other than TensorFlow, edit (or create) `~/.keras/keras.j
 
 ```json
 {
-    "backend": "theano",
+    "backend": "tensorflow",
     "image_data_format": "channels_last",
     "epsilon": 1e-07,
     "floatx": "float32"
@@ -129,7 +123,7 @@ To use a Keras backend other than TensorFlow, edit (or create) `~/.keras/keras.j
 
 ### Troubleshooting
 
-1. If you have a problem after installing matplotlib with pip, and you already have matplotlib installed (say, with apt) try removing the apt-installed version of matplotlib.
+1. If you have a problem after installing matplotlib with pip, and you already have matplotlib installed (say, with apt) try removing the apt-installed version of matplotlib, or the pip install matplotlib. You may have to do this manually if pip no longer works.
 2. Theano has many known problems. Don't use Theano, use TensorFlow.
 
 If you have additional problems, please see the con-users mailing list:
