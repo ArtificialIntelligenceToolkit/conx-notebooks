@@ -22,7 +22,7 @@ Rather than installing Conx piecemeal, consider one of the following pre-built v
 
 ## In-the-Cloud Jupyter
 
-These options take care of the Jupyter service, but you still need to install the Python packages. Not all Conx functionality is available.
+These options take care of the Jupyter service, but you still need to install the Python packages. Not all Conx functionality is available on all of these options.
 
 * [Google's Colabatory](http://colab.research.google.com), [FAQ](https://research.google.com/colaboratory/faq.html)
 * [SageMath's Cocalc](http://cocalc.com), [More information](https://cocalc.com/help?session=default)
