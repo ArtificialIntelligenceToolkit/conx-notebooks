@@ -12,7 +12,7 @@
     "arrow_width": "2",
     "border_width": "2",
     "border_color": "black",
-    "show_targets": false,
+    "show_targets": true,
     "show_errors": false,
     "pixels_per_unit": 1,
     "precision": 2,
