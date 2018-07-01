@@ -126,6 +126,6 @@ To use a Keras backend other than TensorFlow, edit (or create) `~/.keras/keras.j
 1. If you have a problem after installing matplotlib with pip, and you already have matplotlib installed (say, with apt) try removing the apt-installed version of matplotlib, or the pip install matplotlib. You may have to do this manually if pip no longer works.
 2. Theano has many known problems. Don't use Theano, use TensorFlow.
 
-If you have additional problems, please see the con-users mailing list:
+If you have additional problems, please see the conx-users mailing list:
 
 https://groups.google.com/forum/#!forum/conx-users
