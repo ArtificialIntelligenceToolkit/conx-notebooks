@@ -1,10 +1,10 @@
-# How To Run Conx
+# How To Run ConX
 
-This page describes FOUR options for running Conx. Conx requires two main components: the Jupyter notebook system, and the Python Conx libraries. The first three options have Jupyter already installed and ready to run. The first option has everything:
+This page describes FOUR options for running ConX. ConX requires two main components: the Jupyter notebook system, and the Python ConX libraries. The first three options have Jupyter already installed and ready to run. The first option has everything:
 
 * Free, Online, Ready-to-run - click and go
 * Pre-Built Virtual Machine - download image and run
-* In-the-cloud Jupyter - login and install Conx Python packages
+* In-the-cloud Jupyter - login and install ConX Python packages
 * Manage Your Own Install - uses standard Python tools on your computer
 
 There are pros and cons to each option. See the Troubleshooting section at the bottom for additional help.
@@ -15,14 +15,14 @@ There are pros and cons to each option. See the Troubleshooting section at the b
 
 ## Pre-Built Virtual Machines
 
-Rather than installing Conx piecemeal, consider one of the following pre-built virtual machine options:
+Rather than installing ConX piecemeal, consider one of the following pre-built virtual machine options:
 
-* [Conx Docker container](Docker.md) - Perhaps the easiest option. But large download.
+* [ConX Docker container](Docker.md) - Perhaps the easiest option. But large download.
 * [VirtualBox image](VirtualBox.md) - Perhaps the most flexible option. Complete Ubuntu system, but large download.
 
 ## In-the-Cloud Jupyter
 
-These options take care of the Jupyter service, but you still need to install the Python packages. Not all Conx functionality is available on all of these options.
+These options take care of the Jupyter service, but you still need to install the Python packages. Not all ConX functionality is available on all of these options.
 
 * [Google's Colabatory](http://colab.research.google.com), [FAQ](https://research.google.com/colaboratory/faq.html)
 * [SageMath's Cocalc](http://cocalc.com), [More information](https://cocalc.com/help?session=default)
@@ -33,18 +33,18 @@ You'll need to do the `pip install` commands from the following section. However
 
 ## Manage Your Own Install
 
-The rest of this document explains how to manage your own installation of Jupyter and Conx Python libraries.
+The rest of this document explains how to manage your own installation of Jupyter and ConX Python libraries.
 
-Ok, this is the hardest option, but perhaps you want to get Conx running on your own computer. It is highly recommended that you use the [Anaconda distribution](https://www.anaconda.com/distribution/).
+Ok, this is the hardest option, but perhaps you want to get ConX running on your own computer. It is highly recommended that you use the [Anaconda distribution](https://www.anaconda.com/distribution/).
 
-Conx requires Python3, Keras version 2.0.8 or greater, and some other Python modules that are installed automatically with pip.
+ConX requires Python3, Keras version 2.0.8 or greater, and some other Python modules that are installed automatically with pip.
 
 On Linux, you may need to install `libffi` and `libffi-dev` in order to render layers for the network display. If you attempt to display a network and it appears empty, or if you attempt to network.propagate_to_image() and it gives a PIL error, you need these libraries. On Ubuntu or other Debian-based system you can install them with:
 
 ```bash
 sudo apt install libffi-dev libffi6
 ```
-Next, we use `pip` to install the Python packages. We use `pip` rather than `conda` because conx is not yet available as a conda package.
+Next, we use `pip` to install the Python packages. We use `pip` rather than `conda` because conX is not yet available as a conda package.
 
 **Note**: you may need to use `pip3`, or admin privileges (eg, sudo), or install into a user environment.
 
