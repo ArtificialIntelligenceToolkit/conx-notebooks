@@ -84,7 +84,20 @@ brew install ffmpeg
 
 On Windows:
 
-See, for example, https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg
+To install cairocffi, if you are using conda, try:
+
+```
+activate your-python-environment
+conda install -f -c rmg cairocffi
+```
+
+To install ffmpeg, if you are using conda, try:
+
+```
+conda install -c conda-forge ffmpeg 
+```
+
+Otherwise, see https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg
 
 On Linux:
 
